@@ -52,6 +52,15 @@
         v<%= Application.spec(:phoenix, :vsn) %>
       </small>
     </h1>
+    <h1 class="text-brand mt-10 flex items-center text-sm font-semibold leading-6">
+      Basic Variable test
+      <small class="bg-brand/5 text-[0.8125rem] ml-3 rounded-full px-2 font-medium leading-6">
+        Here is my math <%= math() %>
+      </small>
+      <small class="bg-brand/5 text-[0.8125rem] ml-3 rounded-full px-2 font-medium leading-6">
+        Here is a link to another page <.link navigate={~p"/contacts"}>contacts</.link>
+      </small>
+    </h1>
     <p class="text-[2rem] mt-4 font-semibold leading-10 tracking-tighter text-zinc-900">
       Peace of mind from prototype to production.
     </p>

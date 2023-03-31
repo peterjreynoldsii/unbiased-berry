@@ -18,6 +18,8 @@ defmodule BerryWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/contacts", PageController, :contacts
+
   end
 
   # Other scopes may use custom stacks.
