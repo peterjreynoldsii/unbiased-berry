@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :berry, Berry.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "",
   hostname: "localhost",
   database: "berry_dev",
   stacktrace: true,

@@ -7,7 +7,7 @@ import Config
 # Run `mix help test` for more information.
 config :berry, Berry.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "",
   hostname: "localhost",
   database: "berry_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,
